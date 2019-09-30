@@ -1,0 +1,198 @@
+body
+{
+ background-image:url(wall2.png); 
+}
+
+.App {
+
+background-size:cover;
+background-repeat:no-repeat;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2244b2+0,121b5a+12,121b5a+93&0.59+11,1+82 */
+background: -moz-linear-gradient(top,  rgba(34,68,178,0.59) 0%, rgba(19,30,97,0.59) 11%, rgba(18,27,90,0.6) 12%, rgba(18,27,90,1) 82%, rgba(18,27,90,1) 93%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(34,68,178,0.59) 0%,rgba(19,30,97,0.59) 11%,rgba(18,27,90,0.6) 12%,rgba(18,27,90,1) 82%,rgba(18,27,90,1) 93%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(34,68,178,0.59) 0%,rgba(19,30,97,0.59) 11%,rgba(18,27,90,0.6) 12%,rgba(18,27,90,1) 82%,rgba(18,27,90,1) 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#962244b2', endColorstr='#121b5a',GradientType=0 ); /* IE6-9 */
+}
+
+header 
+{
+  position:relative;
+  margin-left :12%;
+  display : flex;
+  color : white;
+
+}
+
+h1
+{
+  margin-left:5px;
+  font-style: italic;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+#logo
+{
+  display: flex;
+  margin-bottom:45px;
+  display:flex;
+  
+}
+
+#logo > img
+{
+  width: 45px;
+  height: 55px;
+}
+
+#navigation
+{
+  margin-top:10px;
+  /*position: absolute;*/
+  margin-left:880px;
+
+}
+
+#menu
+{
+  display:flex;
+  position : relative;
+
+}
+
+#menu>li
+
+{
+  list-style:none;
+  margin-left:30px;
+  color: white;
+  font-weight: bold;
+}
+
+#menu:before
+{
+  content:"";
+  position:absolute;
+  left:145px;
+  top:1px;
+  bottom:2px;
+  margin:auto;
+  border-left:1px solid #37b0ef;
+}
+
+.blanc
+{
+  color:white;
+  text-transform: uppercase;
+}
+
+.bleu
+{
+  color:#37b0ef;
+  text-transform: uppercase;
+}
+
+{
+  list-style:none;
+  margin-left:30px;
+  color: white;
+}
+
+
+#selection
+{
+  margin-right:12%;
+  margin-left:12%;
+  display :flex;
+  justify-content: space-between;
+  margin-bottom:45px;
+  color : white;
+}
+
+#searchB
+{
+  height : 30px;
+  border: solid 1px;
+  border-radius:15px;
+  border-color: #37b0ef;
+  font-weight: bold;
+  padding-left: 80px;
+  background-color: rgba(0,0,0,0.0);
+  color :#2c76a4;
+  opacity : 10%;
+  z-index: ;
+  
+}
+
+#filmList
+{
+  display : flex ;
+  justify-content : space-between;
+  align-content:center;
+  flex-wrap : wrap;
+  list-style-type : none;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding:0px;
+
+}
+
+
+#individual
+{
+  display : flex;
+  flex-direction : column;
+  font-color : white;
+  margin-right:6%;
+  margin-bottom:50px;
+}
+
+
+
+#individual:last-child
+{
+ margin-right:0px;
+
+}
+#individual:nth-child(5)
+{
+ margin-right:0px;
+
+}
+#individual:nth-child(10)
+{
+ margin-right:0px;
+
+}
+#individual:nth-child(15)
+{
+ margin-right:0px;
+
+}
+
+p
+{
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.App li > p
+{
+  width: 100px;
+   color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+
+.App img
+{
+  border-radius : 15px;
+  height: 240px;
+  width: 180px;
+
+}
+
+
+
